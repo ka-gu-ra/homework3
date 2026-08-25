@@ -99,10 +99,7 @@ print(is_subset({1, 2, 3, 4}, {1, 2, 3, 4, 5, 6}))
 
 def parity_check(number: int) -> str:
     """Повертає відповідь, чи вказане число парне/непарне"""
-    if number % 2 == 0:
-        return 'Парне!'
-    else:
-        return 'Непарне!'
+    return 'Парне!' if number % 2 == 0 else 'Непарне!'
 
 
 print(parity_check(5))

@@ -118,6 +118,14 @@ def even_numbers_only(list_numbers: list[int]) -> list[int]:
     return new_list
 
 
+def even_numbers_only2(list_numbers: list[int]) -> list[int]:
+    """Повертає новий список, який містить лише парні числа"""
+    return [number for number in list_numbers if number % 2 == 0]
+
+
+print(even_numbers_only2([7, 8, 9, 10, 11]))
+
+
 print(even_numbers_only([1, 2, 3, 4, 5, 6]))
 
 

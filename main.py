@@ -134,3 +134,7 @@ many_numbers = [11, 20, 30, 43, 50]
 even_numbers = list(filter(lambda x: x % 2 == 0, many_numbers))
 
 print(even_numbers)
+
+even_numbers2 = [number for number in many_numbers if number % 2 == 0]
+
+print(even_numbers2)
